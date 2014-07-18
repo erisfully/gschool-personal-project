@@ -1,0 +1,23 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="747" measuredH="421" mockupW="450" mockupH="400">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="297" y="21" w="-1" h="-1" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <color>15658734</color>
+        <text>A%20Web%20Page%0Ahttp%3A//mainpage.com</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::List" x="549" y="140" w="141" h="215" measuredW="100" measuredH="258" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <alternateRowColor>15134199</alternateRowColor>
+        <color>15134199</color>
+        <text>Twitter%0A@Someone%20%0Asaid%20this%20stuff%0A%20%0A@Other%0Asaid%20more%20stuff%0A%20%0A@another%0Aalso%20tweeted%0A%20%0A@thisguy%0Atweeted%20too</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Icon" x="322" y="111" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>PortletMaximizeIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
