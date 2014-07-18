@@ -6,7 +6,7 @@ class App < Sinatra::Application
   use Rack::Flash
 
   get "/" do
-    "Hello World!"
+    erb :root
   end
 
 end

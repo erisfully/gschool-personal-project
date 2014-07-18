@@ -1,0 +1,10 @@
+*{
+    font-family: 'Monaco';
+    text_align: center;
+    font-variant: all-small-caps;
+}
+
+.wrapper {
+    width: 50%;
+    margin: 0 auto;
+}
