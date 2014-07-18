@@ -1,10 +1,9 @@
-*{
+html {
     font-family: 'Monaco';
-    text_align: center;
     font-variant: all-small-caps;
 }
 
 .wrapper {
-    width: 50%;
-    margin: 0 auto;
+    width: 90%;
+    margin: 0 auto 0 auto;
 }

@@ -9,4 +9,8 @@ class App < Sinatra::Application
     erb :root
   end
 
+  get "/register" do
+    erb :register
+  end
+
 end
