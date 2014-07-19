@@ -1,9 +1,55 @@
 html {
-    font-family: 'Monaco';
+    font-family: 'Aaargh';
     font-variant: all-small-caps;
 }
 
+@font-face {
+    font-family: 'Aaargh';
+    src: url('../fonts/Aaargh.ttf') format('truetype');
+}
+
 .wrapper {
-    width: 90%;
+    width: 70%;
     margin: 0 auto 0 auto;
+}
+
+h1 {
+    color: #215667;
+    background: #b0c9dd;
+    border: 3px solid #215667;
+    display: inline-block;
+    padding: 6px 10px;
+    border-radius: 3px;
+    font-size: 20px;
+    
+
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    float: right;
+    margin: 0px 5px;
+    font-size: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #c3e7f2;
+    background: #328aa7;
+    padding: 5px 8px;
+    border: 2px solid #215667;
+    border-radius: 5px;
+    box-shadow: 0 5px 3px -2px #333333;
+}
+
+nav a:hover {
+    background: #72a2b2;
+    box-shadow: 0 5px 3px -3px #333333;
 }

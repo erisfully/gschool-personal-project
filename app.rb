@@ -13,4 +13,12 @@ class App < Sinatra::Application
     erb :register
   end
 
+  get "/login" do
+    "login"
+  end
+
+  get "/about" do
+    "about things"
+  end
+
 end
