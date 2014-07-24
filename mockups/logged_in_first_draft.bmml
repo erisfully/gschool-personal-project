@@ -16,7 +16,22 @@
     </control>
     <control controlID="3" controlTypeID="com.balsamiq.mockups::Icon" x="322" y="111" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="2" locked="false" isInGroup="-1">
       <controlProperties>
+        <color>799805</color>
         <icon>PortletMaximizeIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::TextInput" x="361" y="110" w="-1" h="-1" measuredW="72" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>0</borderColor>
+        <color>10667209</color>
+        <text>AppName</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Image" x="311" y="152" w="46" h="44" measuredW="77" measuredH="79" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <italic>true</italic>
+        <rotation>180</rotation>
+        <text/>
       </controlProperties>
     </control>
   </controls>

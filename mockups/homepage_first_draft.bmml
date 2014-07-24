@@ -12,9 +12,9 @@
         <icon>PortletMaximizeIcon%7Csmall</icon>
       </controlProperties>
     </control>
-    <control controlID="2" controlTypeID="com.balsamiq.mockups::Image" x="425" y="175" w="322" h="198" measuredW="687" measuredH="474" zOrder="2" locked="false" isInGroup="-1">
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Image" x="418" y="174" w="329" h="199" measuredW="500" measuredH="344" zOrder="2" locked="false" isInGroup="-1">
       <controlProperties>
-        <src>../../../Desktop/Facepalm_statue%2520copy.jpg</src>
+        <src>../public/images/Facepalm_statue.jpg</src>
         <text/>
       </controlProperties>
     </control>
