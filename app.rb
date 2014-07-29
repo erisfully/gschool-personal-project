@@ -10,7 +10,7 @@ class App < Sinatra::Application
 
   def initialize
     super
-    @users_table = GschoolDatabaseConnection::DatabaseConnection.establish(ENV["RACK_ENV"])
+    @users_table = UsersTable.new(GschoolDatabaseConnection::DatabaseConnection.establish(ENV["RACK_ENV"]))
   end
 
 
@@ -19,7 +19,8 @@ class App < Sinatra::Application
   end
 
   post "/register" do
-
+    @users_table.add_user(params[:username], params[:email], params[:password])
+    redirect "/"
   end
 
   get "/register" do
