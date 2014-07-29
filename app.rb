@@ -2,6 +2,7 @@ require "sinatra"
 require "rack-flash"
 require "active_record"
 require "gschool_database_connection"
+require "./lib/users_table"
 
 class App < Sinatra::Application
   enable :sessions
@@ -9,7 +10,7 @@ class App < Sinatra::Application
 
   def initialize
     super
-    @database_connection = GschoolDatabaseConnection::DatabaseConnection.establish(ENV["RACK_ENV"])
+    @users_table = GschoolDatabaseConnection::DatabaseConnection.establish(ENV["RACK_ENV"])
   end
 
 
@@ -17,16 +18,20 @@ class App < Sinatra::Application
     erb :root
   end
 
+  post "/register" do
+
+  end
+
   get "/register" do
     erb :register
   end
 
   get "/login" do
-    "login"
+    erb :login
   end
 
   get "/about" do
-    "about things"
+    erb :about
   end
 
 end
